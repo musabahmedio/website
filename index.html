@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="icon" href="images/favicon.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="responsive-style.css">
+
+</head>
+
+<body>
+    
+    <!-- Navbar Section -->
+    <header class="header_wrapper">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" class="img-fluid logo" alt="logo" >
+          </a>
+
+          <button class="btn btn-secondary btn-sm navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+             <!-- <span class="navbar-toggler-icon"></span> -->
+             <i class="navbar-toggler-icon"></i>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+            <ul class="navbar-nav menu-navbar">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#rooms">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#price">Price</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item mt-3 mt-lg-0">
+                <a class="main-btn" href="book.html">Book Now</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header> 
+    
+    <!-- Banner Section -->
+
+    <section id="home" class="banner_wrapper" >
+      <div class="slider">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="images/slider img/outdoor-health-tan-tropical-seascape.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-start">
+              <h3>Welcome To Hotel In Dubai</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus minus unde ut in impedit nobis boriosam .</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/slider img/beautiful-girl-poses-site-near-pool-beds-sunbeds-open-air-concept-tourism-leisure_120960-1826.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Welcome To Hotel In Dubai</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus minus unde ut in impedit nobis boriosam dicta.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/slider img/woman-brown-hat-drinking-pineapple-cocktail-while-resting-near-pool-magnificent-blonde-female-model-chilling-resort-cafe-weekend-morning.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Welcome To The Hotel In Dubai </h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus minus unde ut in impedit nobis boriosam dicta.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="container booking-area">
+      <form class="row">
+        <div class="col-lg mb-3 mb-lg-0">
+          <input type="date" class="form-control" placeholder="date">
+        </div>
+        <div class="col-lg mb-3 mb-lg-0">
+          <input type="date" class="form-control" placeholder="date">
+        </div>
+        <div class="col-lg mb-3 mb-lg-0">
+          <select class="form-select">
+            <option selected>Adults</option>
+            <option value="1">1 </option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="5">5 </option>
+            <option value="6">6 </option>
+          </select>
+        </div>
+        <div class="col-lg mb-3 mb-lg-0">
+          <select class="form-select">
+            <option selected>Childern</option>
+            <option value="1">1 </option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="5">5 </option>
+            <option value="6">6 </option>
+          </select>
+        </div>
+        <div class="col-lg mb-3 mb-lg-0">
+          <a type="submit" href="book.html" class="main-btn rounded-2 px-lg-3">Check Avalibility</a>
+        </div>
+      </form>
+    </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about_wrapper" id="about">
+      <div class="container">
+        <div class="row flex-lg-row flex-column-reverse">
+            <div class="col-lg-6 text-center text-lg-start">
+              <h3>Welcome to <span>Hotel <br class="d-none d-lg-block"> the heaven</span> of your weekend</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam sequi sapiente accusamus quidem 
+                reiciendis corrupti asperiores ipsa? Accusamus ducimus deleniti reprehenderit corrupti amet modi ipsam, veniam possimus aliquid ea ab?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ducimus aspernatur in ullam
+                Hic awrt wrtfs
+                usto Lorem ipsum dolor sit amet consectetur adipi doloremque!</p>
+                <a href="#" class="main-btn mt-4">Explore</a>
+            </div>
+            <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
+              <img src="images/about-img.svg" class="img-fluid" alt="about">
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- Rooms Section -->
+    <section class="rooms_wrapper" id="rooms">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 section-title text-center mb-5">
+            <h6>What can I do for You</h6>
+            <h3>Our Favourite Rooms</h3>
+          </div>
+        </div>
+        <div class="row m-0">
+          <div class="col-md-4 mb-4 mb-lg-0">
+            <div class="room-items">
+              <img src="./images/room/room1.webp" class="img-fluid" alt="">
+              <div class="room-item-wrap">
+                <div class="room-content">
+                  <h5 class="text-white mb-lg-5 text-decoration-underline">Royal Suit</h5>
+                  <p class="text-white">Discover five of our Favourite Dresses from our new collection that
+                    that are destined to be worn and love immediatly</p>
+                  <p class="text-dark fw-bolder mt-lg-4"> $220 / Per Night</p>
+                  <a class="main-btn border-white text-white mt-lg-5" href="book.html">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 mb-lg-0">
+            <div class="room-items">
+              <img src="./images/room/room2.webp" class="img-fluid" alt="">
+              <div class="room-item-wrap">
+                <div class="room-content">
+                  <h5 class="text-white mb-lg-5 text-decoration-underline">Royal Suit</h5>
+                  <p class="text-white">Discover five of our Favourite Dresses from our new collection that
+                    that are destined to be worn and love immediatly</p>
+                  <p class="text-dark fw-bolder mt-lg-4"> $220 / Per Night</p>
+                  <a class="main-btn border-white text-white mt-lg-5" href="book.html">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 mb-lg-0">
+            <div class="room-items">
+              <img src="./images/room/room3.webp" class="img-fluid" alt="">
+              <div class="room-item-wrap">
+                <div class="room-content">
+                  <h5 class="text-white mb-lg-5 text-decoration-underline">Royal Suit</h5>
+                  <p class="text-white">Discover five of our Favourite Dresses from our new collection that
+                    that are destined to be worn and love immediatly</p>
+                  <p class="text-dark fw-bolder mt-lg-4"> $220 / Per Night</p>
+                  <a class="main-btn border-white text-white mt-lg-5" href="book.html">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Timer -->
+    <div class="counter mt-5">
+      <div class="container">
+          <div class="row text-center">
+              <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                  <h1>
+                      <span id="count1"></span>+
+                  </h1>
+                  <p>Happy Clients</p>
+              </div>
+              <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                  <h1>
+                      <span id="count2"></span>+
+                      </h2>
+                      <p>New Friendships</p>
+              </div>
+              <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                  <h1>
+                      <span id="count3"></span>+
+                      </h2>
+                      <p>Five Start Ratings</p>
+              </div>
+              <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                  <h1>
+                      <span id="count4"></span>+
+                      </h2>
+                      <p>Served Breakfast</p>
+              </div>
+          </div>
+      </div>
+  </div>
+    <!-- Team Section -->
+
+    <section id="team" class="team_wrapper">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-12 section-title text-center mb-5">
+                  <h6>What I can do for you</h6>
+                  <h3>Our Special Staff</h3>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card p-0 rounded-3">
+                      <img decoding="async" src="images/team/team1.webp" class="img-fluid rounded-3" />
+                      <div class="team-info">
+                          <h5>Shirley Gibson</h5>
+                          <p>Manager</p>
+                          <ul class="social-network">
+                              <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                              <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                              <li><a href="https://mail.google.com/mail/u/0/#inbox"><i class="fab fa-google-plus-g"></i></a></li>
+                              <li><a href="https://vimeo.com/"><i class="fab fa-vimeo-v"></i></a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card p-0 rounded-3">
+                      <img decoding="async" src="images/team/team2.webp" class="img-fluid rounded-3" />
+                      <div class="team-info">
+                          <h5>Ronald Long</h5>
+                          <p>Chif Reciption Officer</p>
+                          <ul class="social-network">
+                              <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                              <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                              <li><a href="https://mail.google.com/mail/u/0/#inbox"><i class="fab fa-google-plus-g"></i></a></li>
+                              <li><a href="https://vimeo.com/"><i class="fab fa-vimeo-v"></i></a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card p-0 rounded-3">
+                      <img decoding="async" src="images/team/team3.webp" class="img-fluid rounded-3" />
+                      <div class="team-info">
+                          <h5>Ashley Sanchez</h5>
+                          <p>Master Chef</p>
+                          <ul class="social-network">
+                              <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                              <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                              <li><a href="https://mail.google.com/mail/u/0/#inbox"><i class="fab fa-google-plus-g"></i></a></li>
+                              <li><a href="https://vimeo.com/"><i class="fab fa-vimeo-v"></i></a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card p-0 rounded-3">
+                      <img decoding="async" src="images/team/team4.webp" class="img-fluid rounded-3" />
+                      <div class="team-info">
+                          <h5>Jessica Watson</h5>
+                          <p>Housekeeping</p>
+                          <ul class="social-network">
+                              <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                              <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                              <li><a href="https://mail.google.com/mail/u/0/#inbox"><i class="fab fa-google-plus-g"></i></a></li>
+                              <li><a href="https://vimeo.com/"><i class="fab fa-vimeo-v"></i></a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery_wrapper">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-12 section-title text-center mb-5">
+                  <h6>Best Pictures Of Our Hotel</h6>
+                  <h3>Our Gallery</h3>
+              </div>
+          </div>
+          <div class="row g-0">
+              <div class="col-lg-3 col-md-6 gallery-item">
+                  <img decoding="async" src="./images/gallery/1.webp" class="img-fluid w-100">
+                  <div class="gallery-item-content"></div>
+              </div>
+              <div class="col-lg-3 col-md-6 gallery-item">
+                  <img decoding="async" src="./images/gallery/2.webp" class="img-fluid w-100">
+                  <div class="gallery-item-content"></div>
+              </div>
+              <div class="col-lg-3 col-md-6 gallery-item">
+                  <img decoding="async" src="./images/gallery/3.webp" class="img-fluid w-100">
+                  <div class="gallery-item-content"></div>
+              </div>
+              <div class="col-lg-3 col-md-6 gallery-item">
+                  <img decoding="async" src="./images/gallery/4.webp" class="img-fluid w-100">
+                  <div class="gallery-item-content"></div>
+              </div>
+              <div class="col-md-6 gallery-item">
+                  <img decoding="async" src="./images/gallery/5.webp" class="img-fluid w-100">
+                  <div class="gallery-item-content"> </div>
+              </div>
+              <div class="col-md-6 gallery-item">
+                  <img decoding="async" src="./images/gallery/6.webp" class="img-fluid w-100">
+                  <div class="gallery-item-content"> </div>
+              </div>
+          </div>
+      </div>
+  </section>
+    <!-- Pricing Section -->
+
+    <section id="price" class="price_wrapper">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-12 section-title text-center mb-5">
+                  <h6>Best & Affordable Price for you</h6>
+                  <h3>Our Pricing</h3>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card p-4 text-center rounded-3">
+                      <h5 class="text-decoration-underline mb-4">Economic</h5>
+                      <ul class="list-unstyled">
+                          <li>
+                              <p>Flight Ticket(2)</p>
+                          </li>
+                          <li>
+                              <p>Music Concert (30% Off)</p>
+                          </li>
+                          <li>
+                              <p>Restaurant (Snacks)</p>
+                          </li>
+                          <li>
+                              <p>Face Make(No)</p>
+                          </li>
+                      </ul>
+                      <hr />
+                      <h3>$150<sub class="fs-6 fw-normal">/NIGHT</sub></h3>
+                      <a href="book.html" class="main-btn">book</a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card p-4 text-center rounded-3">
+                      <h5 class="text-decoration-underline mb-4">Economic</h5>
+                      <ul class="list-unstyled">
+                          <li>
+                              <p>Flight Ticket(2)</p>
+                          </li>
+                          <li>
+                              <p>Music Concert (30% Off)</p>
+                          </li>
+                          <li>
+                              <p>Restaurant (Snacks)</p>
+                          </li>
+                          <li>
+                              <p>Face Make(No)</p>
+                          </li>
+                      </ul>
+                      <hr />
+                      <h3>$150<sub class="fs-6 fw-normal">/NIGHT</sub></h3>
+                      <a href="book.html" class="main-btn">Book</a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card p-4 text-center rounded-3">
+                      <h5 class="text-decoration-underline mb-4">Economic</h5>
+                      <ul class="list-unstyled">
+                          <li>
+                              <p>Flight Ticket(2)</p>
+                          </li>
+                          <li>
+                              <p>Music Concert (30% Off)</p>
+                          </li>
+                          <li>
+                              <p>Restaurant (Snacks)</p>
+                          </li>
+                          <li>
+                              <p>Face Make(No)</p>
+                          </li>
+                      </ul>
+                      <hr />
+                      <h3>$150<sub class="fs-6 fw-normal">/NIGHT</sub></h3>
+                      <a href="book.html" class="main-btn">Book</a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card p-4 text-center rounded-3">
+                      <h5 class="text-decoration-underline mb-4">Economic</h5>
+                      <ul class="list-unstyled">
+                          <li>
+                              <p>Flight Ticket(2)</p>
+                          </li>
+                          <li>
+                              <p>Music Concert (30% Off)</p>
+                          </li>
+                          <li>
+                              <p>Restaurant (Snacks)</p>
+                          </li>
+                          <li>
+                              <p>Face Make(No)</p>
+                          </li>
+                      </ul>
+                      <hr />
+                      <h3>$150<sub class="fs-6 fw-normal">/NIGHT</sub></h3>
+                      <a href="book.html" class="main-btn">Book</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog_wrapper pb-0">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-12 section-title text-center mb-5">
+                  <h6>Say Hello TO Our Visiters</h6>
+                  <h3>Our Blog</h3>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6 mb-4">
+                  <div class="card p-0 border-0 rounded-0">
+                      <img decoding="async" src="images/blog/blog1.webp" alt="">
+                      <div class="blog-content bg-white p-4">
+                          <h5 class="text-decoration-underline fs-2 mb-4">Relax Zone</h5>
+                          <h6>By Admin - February 18, 2018</h6>
+                          <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, nostrum.
+                          </p>
+                          <a href="#" class="main-btn mt-2">Read More</a>
+
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                  <div class="card p-0 border-0 rounded-0">
+                      <img decoding="async" src="images/blog/blog2.webp" alt="">
+                      <div class="blog-content bg-white p-4">
+                          <h5 class="text-decoration-underline fs-2 mb-4">Relax Zone</h5>
+                          <h6>By Admin - February 18, 2018</h6>
+                          <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, nostrum.
+                          </p>
+                          <a href="#" class="main-btn mt-2">Read More</a>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+    <!-- Footer Section -->
+
+    <section id="contact" class="footer_wrapper mt-3  mt-md-0 pb-0">
+      <div class="container pb-3">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <h5>Hotel Location</h5>
+            <p class="ps-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim erat ut laoreet
+                pharetra....</p>
+            <div class="contact-info">
+                <ul class="list-unstyled">
+                    <li><a href="#"><i class="fa fa-home me-3"></i> No. 96, South City, London</a></li>
+                    <li><a href="#"><i class="fa fa-phone me-3"></i>+1 222 3333</a></li>
+                    <li><a href="#"><i class="fa fa-envelope me-3"></i>info@example.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5>More Links</h5>
+          <ul class="link-widget p-0">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Office</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Our Store</a></li>
+              <li><a href="#">Guarantee</a></li>
+              <li><a href="#">Buy Gift Card</a></li>
+              <li><a href="#">Return Policy</a></li>
+          </ul>
+      </div>
+      <div class="col-lg-3 col-md-6">
+          <h5>Demo Links</h5>
+          <ul class="link-widget p-0">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Office</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Our Store</a></li>
+              <li><a href="#">Guarantee</a></li>
+              <li><a href="#">Buy Gift Card</a></li>
+              <li><a href="#">Return Policy</a></li>
+          </ul>
+      </div>
+      <div class="col-lg-3 col-md-6">
+          <h5>Newsletter</h5>
+          <div class="form-group mb-4">
+              <input type="email" class="form-control bg-transparent" placeholder="enter your email here">
+              <a type="submit" href="book.html" class="main-btn rounded-2 mt-3 border-white text-white">Subscribe</a>
+          </div>
+          <h5>Stay Connected</h5>
+          <ul class="social-network d-flex align-items-center p-0">
+              <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="https://mail.google.com/mail/u/0/#inbox"><i class="fab fa-google-plus-g"></i></a></li>
+              <li><a href="https://vimeo.com/"><i class="fab fa-vimeo-v"></i></a></li>
+          </ul>
+      </div>
+      </div>
+  </div>
+          <div class="container-fluid copyright-section">
+            <p>Copyright <a href="#"><img src="images/logo.png" alt=""></a> All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
